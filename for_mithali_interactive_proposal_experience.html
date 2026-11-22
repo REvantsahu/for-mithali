@@ -1614,7 +1614,7 @@
                 "Chaliye ${CONFIG.girlName} Ji, mera kaam yahan khatam hota hai. Let me take your leave..."
               </p>
               <p class="text-pink-300 text-base sm:text-lg mt-4">
-                Ab <span class="font-bold text-white">${CONFIG.boyName}</span> aapse khud kuch kehna chahta hai.
+                Ab <span class="font-bold text-white">${CONFIG.boyName}</span> aapse khud ek cute si baat kehna chahta hai—ekdum dil se, aur bina kisi pressure ke. ✨
               </p>
               <button onclick="playChime('magic'); renderScene('proposal')"
                 class="neon-btn-primary text-white font-semibold py-3.5 px-9 rounded-2xl mt-7 text-sm sm:text-base cursor-pointer">
@@ -1645,30 +1645,36 @@
             <div class="glass-dark rounded-3xl p-6 sm:p-9 w-full">
               <div class="text-pink-400 text-4xl font-serif leading-none mb-2">“</div>
               <p class="text-white/95 text-sm sm:text-base leading-relaxed space-y-3.5 text-left sm:text-center">
-                <span class="block">Well ${CONFIG.girlName}, yeh sab bolne ke liye mujhe kisi ready-made script ki zaroorat nahi padi... because at last, meri poori duniya hi tum ho.</span>
-                <span class="block">Bangalore ke weather ka koi bharosa nahi hota, par mera guarantee hai—tumhare saath har din sunshine jaisa warm aur special rahega. 📍✨</span>
-                <span class="block">Cricket pitch pe medium pace daalte waqt kitna bhi accurate swing nikaal loon, par tumhari ek smile pe main hamesha clean bowled ho jaata hoon. Aur basketball court pe chahe 6'1 height ka kitna bhi advantage ho, tumhare saamne aate hi mera dil bas tumhare liye bounce karta hai. 🏀🏏</span>
-                <span class="block">Videos edit karte waqt hazaaron smooth cuts aur cinematic transitions laga deta hoon... par tumhare saath apni story ka har ek frame main bina kisi cut ke lifetime ke liye chahta hoon. 🎬✨</span>
-                <span class="block">Princess treatment toh shayad nahi de paunga, <span class="text-cyan-300 font-semibold">because you are already my Queen.</span> Par haan, hamesha sachha rakhunga aur hamesha khush rakhunga—this is my promise.</span>
+                <span class="block">Hey ${CONFIG.girlName}... Sach kahun toh main basketball court pe kitna bhi confident dikh loon, ya cricket pitch pe accurate bowling kar loon... par jab tum aas-paas hoti ho na, toh yeh 6'1 ft banda thoda sa nervous aur bohot saara shy ho jaata hai. 🙈🏀🏏</span>
+                
+                <span class="block">Bangalore ke gloomy weather mein bhi tumhari ek smile dekh ke din genuinely bright aur special ho jaata hai. 📍☀️</span>
+
+                <span class="block">Videos edit karte waqt hazaaron smooth cuts aur cinematic transitions aasani se laga leta hoon... par tumse baat karte waqt mere saare dialogues hi bhool jaate hain! 🎬✨</span>
+
+                <span class="block">Mujhe koi over-the-top promises nahi karne... bas ek simple aur honest si baat hai: tum mujhe genuinely bohot acchi lagti ho. And your comfort is my absolute top priority. 🌸</span>
               </p>
               <div class="text-pink-400 text-4xl font-serif leading-none mt-1 mb-4">”</div>
 
-              <h2 class="font-serif-elegant text-2xl sm:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-pink-300 to-amber-200 my-4">
-                So ${CONFIG.girlName}, will you go on a date with me? ✨
+              <h2 class="font-serif-elegant text-2xl sm:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-300 via-purple-200 to-cyan-300 my-4">
+                So ${CONFIG.girlName}... Would you like to go on a cute cold coffee or ice cream date with me? 🍦🧋✨
               </h2>
+
+              <p class="text-xs sm:text-sm text-pink-200/80 mb-5 italic">
+                (Zero pressure, promise! Bas sweet baatein, dher saari hasi aur zero awkwardness 🌸)
+              </p>
 
               <!-- Buttons with Wingman sitting right on top of "Nah" -->
               <div class="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-5 mt-12 pt-4">
                 <button onclick="playChime('celebrate'); renderScene('yes_celebration')"
                   class="neon-btn-primary w-full sm:w-auto text-white font-bold py-4 px-10 rounded-2xl text-base sm:text-lg cursor-pointer">
-                  YES, I'd love to! 💖
+                  Yes, I'd love to! 💖🍦
                 </button>
 
                 <div class="relative w-full sm:w-auto flex flex-col items-center">
                   <div class="absolute -top-16 left-1/2 -translate-x-1/2 flex flex-col items-center pointer-events-none w-56 z-20">
                     <div id="wingman-nah-bubble"
                       class="bg-white text-gray-900 text-[11px] font-bold px-3 py-1 rounded-xl shadow-lg border border-pink-300 whitespace-nowrap mb-0.5">
-                      Bro, atleast meri mehnat pe paani mat daalo! 😭
+                      Koi pressure nahi, aaram se socho! 🥺🍦
                     </div>
                     <div class="w-11 h-11 -mb-2.5">
                       ${getWingmanSVG("plead", "w-11 h-11")}
@@ -1677,7 +1683,7 @@
 
                   <button id="nah-btn" onclick="handleNahClick()"
                     class="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white/85 border border-white/25 font-semibold py-4 px-9 rounded-2xl text-sm sm:text-base transition cursor-pointer">
-                    Nah... 🙈
+                    Thoda shy hoon / Nah 🙈
                   </button>
                 </div>
               </div>
@@ -1749,23 +1755,26 @@
                 class="w-full h-full object-cover rounded-full border-2 border-black" />
             </div>
             <div class="glass-dark rounded-3xl p-7 sm:p-9 w-full">
-              <span class="inline-block px-3 py-1 rounded-full text-[11px] font-bold tracking-widest uppercase bg-white/10 text-cyan-300 mb-4">
-                😎 Respectful & Unbothered
+              <span class="inline-block px-3.5 py-1 rounded-full text-[11px] font-bold tracking-widest uppercase bg-pink-500/20 text-pink-300 border border-pink-400/30 mb-4">
+                🌸 Always Respect & Care
               </span>
               <h2 class="font-serif-elegant text-2xl sm:text-3xl font-bold text-white mb-3">
-                "Fine, it's totally your choice!"
+                "Totally understand, ${CONFIG.girlName}! 💖"
               </h2>
               <p class="text-white/90 text-base sm:text-lg leading-relaxed">
-                No hard feelings at all, ${CONFIG.girlName}—I genuinely respect your decision.
-                <br/><span class="text-cyan-300 font-semibold italic mt-2 block">Well, good luck finding another 6'1 Bangalore baller, medium pacer & video editor with a heart this genuine though! 😉🏀🏏🎬✨</span>
+                Your comfort and your choice come first, always. Bilkul zero awkwardness, promise!
+                <br/><span class="text-cyan-300 font-medium mt-2 block">You are an amazing person, and we'll always be great friends! Keep smiling always ✨😊</span>
               </p>
-              <p class="text-white/55 text-xs mt-4">
-                (Wingman note: Waise agar baad mein mind change ho jaye, toh button neeche hi hai!)
-              </p>
-              <button onclick="playChime('cute'); renderScene('proposal')"
-                class="mt-6 bg-white/15 hover:bg-white/25 text-white border border-white/25 font-semibold py-3 px-7 rounded-2xl text-sm transition cursor-pointer">
-                Wait, let me reconsider ↺
-              </button>
+              <div class="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3">
+                <button onclick="playChime('cute'); renderScene('welcome')"
+                  class="bg-white/15 hover:bg-white/25 text-white border border-white/25 font-semibold py-3 px-6 rounded-2xl text-sm transition cursor-pointer">
+                  Replay Story ↺
+                </button>
+                <button onclick="shareFriendlyWhatsApp()"
+                  class="bg-emerald-500/80 hover:bg-emerald-600 text-white font-semibold py-3 px-6 rounded-2xl text-sm shadow-md transition cursor-pointer">
+                  💬 Say Hi to ${CONFIG.boyName}
+                </button>
+              </div>
             </div>
           </div>
         `;
@@ -1779,11 +1788,11 @@
       const btn = document.getElementById("nah-btn");
 
       if (nahCount === 1) {
-        bubble.textContent = "Really?! Ek baar phir soch lo yaar! 🥺";
-        btn.textContent = "Still Nah 🤔";
+        bubble.textContent = "It's totally okay! Cold coffee Ansh ki taraf se free hai! 🧋😋";
+        btn.textContent = "Still a bit shy 🤔";
       } else if (nahCount === 2) {
-        bubble.textContent = "Why though?! 6'1 baller, bowler aur editor banda kahan milega! 😩";
-        btn.textContent = "Final Nah 🙅‍♀️";
+        bubble.textContent = "No pressure at all, you're the sweetest! 🌸";
+        btn.textContent = "Maybe just good friends 😊";
       } else {
         renderScene("nah_ending");
       }
@@ -1853,7 +1862,7 @@
         ctx.fillText("Bangalore 📍 • 6'1 Baller & Medium Pacer • Unedited Memories 🎬", 540, 825);
         ctx.fillStyle = "#fbcfe8";
         ctx.font = "500 26px 'Plus Jakarta Sans', sans-serif";
-        ctx.fillText("Queen treatment & endless smiles guaranteed ✨", 540, 880);
+        ctx.fillText("Sweet laughs, ice cream & good times guaranteed ✨", 540, 880);
 
         ctx.fillStyle = "rgba(255, 42, 133, 0.25)";
         ctx.fillRect(260, 965, 560, 96);
@@ -1882,7 +1891,16 @@
 
     function shareOnWhatsApp() {
       playChime("cute");
-      const text = encodeURIComponent(`Hey ${CONFIG.boyName}! I saw the whole website... Bangalore, basketball, medium pace bowling aur video edits sab kuch! And YES, I'd love to go on a date with you! 💖✨`);
+      const text = encodeURIComponent(`Hey ${CONFIG.boyName}! I saw the website... it was so cute and sweet! I'd love to go for ice cream / cold coffee with you! 🍦🧋💖`);
+      const url = CONFIG.whatsappNumber
+        ? `https://wa.me/${CONFIG.whatsappNumber}?text=${text}`
+        : `https://wa.me/?text=${text}`;
+      window.open(url, "_blank");
+    }
+
+    function shareFriendlyWhatsApp() {
+      playChime("cute");
+      const text = encodeURIComponent(`Hey ${CONFIG.boyName}! Saw the website, it was really sweet! Let's stay great friends! 😊✨`);
       const url = CONFIG.whatsappNumber
         ? `https://wa.me/${CONFIG.whatsappNumber}?text=${text}`
         : `https://wa.me/?text=${text}`;
